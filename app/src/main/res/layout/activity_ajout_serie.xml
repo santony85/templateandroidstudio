@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AjoutSerie">
+
+    <EditText
+        android:id="@+id/titre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Titre"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/premiereDiffusion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Premiere Diffusion"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/duree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Duree"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Image"
+        android:inputType="textPersonName"
+        android:text="https://fr.web.img2.acsta.net/r_640_360/newsv7/20/10/16/11/40/1707424.png" />
+
+    <Button
+        android:id="@+id/addBt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addSerie"
+        android:text="Ajouter" />
+
+    <EditText
+        android:id="@+id/resume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:lines="10"
+        android:text="Un projet peut en cacher un autre pour Bambi ! En plus du remake Live que prépare Disney, Le Film Français annonce que Philippe Muyl (Le Papillon) tournera une adaptation française, en prise de vues réelle, d'après le roman d'origine de Félix Salten." />
+
+</LinearLayout>
